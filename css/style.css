@@ -144,12 +144,12 @@ a {
   margin-top: 80px;
 }
 
-.img__appeal-point {
+.appeal-point__link {
   opacity: 0.7;
   transition: 0.3s;
 }
 
-.appeal-point__link:hover .img__appeal-point {
+.appeal-point__link:hover {
   opacity: 1;
 }
 
@@ -230,7 +230,7 @@ a {
 .sns__icon {
   padding: 25px 0;
   transition: 0.3s;
-  font-size: 4em;
+  font-size:initial;
 }
 
 .sns__icon:hover {
@@ -238,8 +238,12 @@ a {
 }
 
 .sns__icon i {
-  width: 180px;
+  width: 185px;
   color: #74cfae;
+}
+
+.font-size4em {
+  font-size: 4em;
 }
 
 .footer {
