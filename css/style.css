@@ -8,7 +8,6 @@ body {
   position:fixed;
   top: 0;
   left: 0;
-  padding: 15px 0;
   z-index: 100;
   width: 100%;
   background-color: #fff;
@@ -23,10 +22,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 15px 0;
 }
 
 .fa-bolt {
-  font-size: 4em;
+  font-size: 40px;
   color: #808080;
 }
 
@@ -37,6 +37,7 @@ body {
 .header__nav {
   display: inline-block;
   font-size: 12px;
+  text-decoration: none;
   padding: 14px 12px;
   color: #fff;
   background-color: #74cfae;
@@ -45,6 +46,10 @@ body {
 
 .header__nav:hover {
   color: #333;
+}
+
+.main {
+  padding-top: 70px;
 }
 
 .theme {
@@ -56,7 +61,7 @@ body {
 }
 
 .theme__container {
-  padding-top: 344px;
+  padding-top: 250px;
   padding-bottom: 250px;
 }
 
@@ -100,14 +105,13 @@ body {
 .WHAT__text {
   margin-top: 35px;
   font-size: 20px;
+  width: 650px;
 }
 
 .appeal-point {
   background-color: #f2f2f2;
-}
-
-.appeal-point__inner {
   padding-top: 60px;
+  padding-bottom: 70px;
 }
 
 .appeal-point__title {
@@ -121,17 +125,20 @@ body {
   margin-top: 40px;
 }
 
-.img__appeal-point:nth-child(3n+1) {
+.appeal-point__image {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.appeal-point__image:nth-child(3n+1) {
   margin-left: 0;
 }
 
-.img__appeal-point:nth-child(n+4) {
+.appeal-point__image:nth-child(n+4) {
   margin-top: 80px;
 }
 
 .img__appeal-point {
-  display: inline-block;
-  margin-left: 100px;
   opacity: 0.7;
   transition: 0.3s;
 }
@@ -144,11 +151,11 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 90px;
-  padding-bottom: 70px;
 }
 
 .contact__text {
-  font-size: 20px;
+  width: 520px;
+  font-size: 18px;
   text-align: center;
   color: #333;
 }
@@ -157,6 +164,7 @@ body {
   margin-left: 90px;
   display: inline-block;
   font-size: 12px;
+  text-decoration: none;
   padding: 14px 20px;
   color: #fff;
   background-color: #74cfae;
@@ -169,6 +177,7 @@ body {
 
 .skills__container {
   padding-top: 70px;
+  padding-bottom: 100px;
   background-color: #4e4e4e;
   text-align: center;
 }
@@ -186,7 +195,6 @@ body {
 .skills-image {
   margin-top: 70px;
   margin-left: 180px;
-  padding-bottom: 100px;
   display: inline-block;
 }
 
