@@ -4,6 +4,14 @@ body {
   font-family: 'Lato';
 }
 
+img {
+  vertical-align: bottom;
+}
+
+a {
+  display: inline-block;
+}
+
 .header {
   position:fixed;
   top: 0;
@@ -35,7 +43,6 @@ body {
 }
 
 .header__nav {
-  display: inline-block;
   font-size: 12px;
   text-decoration: none;
   padding: 14px 12px;
@@ -56,6 +63,10 @@ body {
   background-color: #f2f2f2;
 }
 
+.is-raleway {
+  font-family: 'Raleway';
+}
+
 .theme-inner {
   text-align: center;
   padding-top: 250px;
@@ -63,14 +74,12 @@ body {
 }
 
 .theme__title {
-  font-family: 'Raleway';
   font-size: 90px;
   font-weight: 700;
   color: #74cfae;
 }
 
 .theme__text {
-  font-family: 'Raleway';
   margin-top: 20px;
   font-size: 30px;
   color: #c0c0c0;
@@ -87,10 +96,6 @@ body {
   padding-top: 50px;
 }
 
-.img__iphone {
-  vertical-align: bottom;
-}
-
 .WHAT__block {
   text-align: center;
   color: #fff;
@@ -98,7 +103,6 @@ body {
 }
 
 .WHAT__title {
-  font-family: 'Raleway';
   font-size: 24px;
 }
 
@@ -118,7 +122,6 @@ body {
 }
 
 .appeal-point__title {
-  font-family: 'Raleway';
   font-size: 24px;
   text-align: center;
   color: #333;
@@ -146,7 +149,7 @@ body {
   transition: 0.3s;
 }
 
-.img__appeal-point:hover {
+.appeal-point__link:hover .img__appeal-point {
   opacity: 1;
 }
 
@@ -165,7 +168,6 @@ body {
 
 .contact__nav {
   margin-left: 90px;
-  display: inline-block;
   font-size: 12px;
   text-decoration: none;
   padding: 14px 20px;
@@ -189,7 +191,6 @@ body {
 }
 
 .skills__title {
-  font-family: 'Raleway', sans-serif;
   font-size: 24px;
   color: #fff;
 }
@@ -208,9 +209,9 @@ body {
 }
 
 .skills-image figcaption {
+  margin-top: 20px;
   font-size: 16px;
   color: #fff;
-  line-height: 50px;
 }
 
 .sns__container {
@@ -245,11 +246,14 @@ body {
   background-color: #74cfae;
 }
 
+.footer__inner {
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
 .footer__text {
   text-align: right;
   color: #fff;
-  padding-top: 20px;
-  padding-bottom: 25px;
 }
 
 
