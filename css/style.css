@@ -303,9 +303,12 @@ a {
     line-height: 25px;
   }
 
+  .contact__nav_parent {
+    margin-top: 40px;
+  }
+
   .contact__nav {
     margin-left: 0;
-    margin-top: 40px;
     font-size: 16px;
     padding: 18px 26px;;
   }
@@ -408,6 +411,6 @@ a {
   }
 
   .sns__icon {
-    width: calc(100% - 30px);
+    width: 100%;
   }
 }
