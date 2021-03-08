@@ -261,13 +261,64 @@ a {
 }
 
 
-/* @media screen and (min-width: 1200px) { 
-
-}
-
 @media screen and (max-width: 1199px) { 
   .inner {
     width: 97%;
+  }
+
+  .section__inner {
+    flex-direction: column;
+    padding-bottom: 25px;
+  }
+
+  .WHAT__title {
+    margin-top: 20px;
+  } 
+
+  .WHAT__text {
+    width: 100%;
+  }
+
+  .appeal-point__images {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .appeal-point__image {
+    margin-left: 0;
+  }
+
+  .appeal-point__image:nth-child(n+4):not(.appeal-point__image:nth-child(3n+1)) {
+    margin-top: 0;
+  }
+
+  .contact__container {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  .contact__text {
+    width: 100%;
+    line-height: 25px;
+  }
+
+  .contact__nav {
+    margin-left: 0;
+    margin-top: 40px;
+    font-size: 16px;
+    padding: 18px 26px;;
+  }
+
+  .skills-image {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .skills-image:nth-child(n+2) {
+    margin-top: 88px;
   }
 }
 
@@ -309,23 +360,14 @@ a {
     top: 28px;
   }
 
-  .theme__container {
-    padding-top: 254px;
-    padding-bottom: 130px;
-  }
-
   .theme__title {
     font-size: 80px;
     line-height: 90px;
   }
 
   .section__inner {
-    display: initial;
-    text-align: center;
-  }
-
-  .img__iphone {
-    display: inline-block;
+    flex-direction: column;
+    padding-bottom: 50px;
   }
 
   .WHAT__title {
@@ -333,6 +375,58 @@ a {
   } 
 
   .WHAT__text {
-    padding-bottom: 25px;
+    width: 100%;
   }
-} */
+
+  .appeal-point__image {
+    margin-left: 0;
+  }
+
+  .appeal-point__image:nth-child(n+4):not(.appeal-point__image:nth-child(3n+1)) {
+    margin-top: 0;
+  }
+
+  .appeal-point__images {
+    text-align: center;
+  }
+
+  .contact__container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact__text {
+    width: 100%;
+    line-height: 25px;
+  }
+
+  .contact__nav {
+    margin-left: 0;
+    margin-top: 30px;
+    font-size: 16px;
+    padding: 18px 26px;;
+  }
+
+  .skills-image {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .skills-image:nth-child(n+2) {
+    margin-top: 88px;
+  }
+
+  .sns__inner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .sns__child {
+    width: 100%;
+  }
+
+  .sns__icon {
+    width: calc(100% - 30px);
+  }
+}
